@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC06EEC21DC66AC600F62667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06EEC11DC66AC600F62667 /* AppDelegate.swift */; };
+		DC06EEC41DC66AC600F62667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06EEC31DC66AC600F62667 /* ViewController.swift */; };
+		DC06EEC71DC66AC600F62667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC06EEC51DC66AC600F62667 /* Main.storyboard */; };
+		DC06EEC91DC66AC700F62667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC06EEC81DC66AC700F62667 /* Assets.xcassets */; };
+		DC06EECC1DC66AC700F62667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC06EECA1DC66AC700F62667 /* LaunchScreen.storyboard */; };
+		DC06EED71DC66ACD00F62667 /* RotatingDialPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06EED61DC66ACD00F62667 /* RotatingDialPadTests.swift */; };
+		DC06EEE21DC66ACD00F62667 /* RotatingDialPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC06EEE11DC66ACD00F62667 /* RotatingDialPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC06EED31DC66ACD00F62667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC06EEB61DC66AC400F62667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC06EEBD1DC66AC500F62667;
+			remoteInfo = RotatingDialPad;
+		};
+		DC06EEDE1DC66ACD00F62667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC06EEB61DC66AC400F62667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC06EEBD1DC66AC500F62667;
+			remoteInfo = RotatingDialPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC06EEBE1DC66AC500F62667 /* RotatingDialPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingDialPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC06EEC11DC66AC600F62667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC06EEC31DC66AC600F62667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC06EEC61DC66AC600F62667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC06EEC81DC66AC700F62667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC06EECB1DC66AC700F62667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC06EECD1DC66AC700F62667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC06EED21DC66ACD00F62667 /* RotatingDialPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingDialPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC06EED61DC66ACD00F62667 /* RotatingDialPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingDialPadTests.swift; sourceTree = "<group>"; };
+		DC06EED81DC66ACD00F62667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC06EEDD1DC66ACD00F62667 /* RotatingDialPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingDialPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC06EEE11DC66ACD00F62667 /* RotatingDialPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingDialPadUITests.swift; sourceTree = "<group>"; };
+		DC06EEE31DC66ACD00F62667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC06EEBB1DC66AC500F62667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC06EECF1DC66ACD00F62667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC06EEDA1DC66ACD00F62667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC06EEB51DC66AC400F62667 = {
+			isa = PBXGroup;
+			children = (
+				DC06EEC01DC66AC500F62667 /* RotatingDialPad */,
+				DC06EED51DC66ACD00F62667 /* RotatingDialPadTests */,
+				DC06EEE01DC66ACD00F62667 /* RotatingDialPadUITests */,
+				DC06EEBF1DC66AC500F62667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC06EEBF1DC66AC500F62667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC06EEBE1DC66AC500F62667 /* RotatingDialPad.app */,
+				DC06EED21DC66ACD00F62667 /* RotatingDialPadTests.xctest */,
+				DC06EEDD1DC66ACD00F62667 /* RotatingDialPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC06EEC01DC66AC500F62667 /* RotatingDialPad */ = {
+			isa = PBXGroup;
+			children = (
+				DC06EEC11DC66AC600F62667 /* AppDelegate.swift */,
+				DC06EEC31DC66AC600F62667 /* ViewController.swift */,
+				DC06EEC51DC66AC600F62667 /* Main.storyboard */,
+				DC06EEC81DC66AC700F62667 /* Assets.xcassets */,
+				DC06EECA1DC66AC700F62667 /* LaunchScreen.storyboard */,
+				DC06EECD1DC66AC700F62667 /* Info.plist */,
+			);
+			path = RotatingDialPad;
+			sourceTree = "<group>";
+		};
+		DC06EED51DC66ACD00F62667 /* RotatingDialPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC06EED61DC66ACD00F62667 /* RotatingDialPadTests.swift */,
+				DC06EED81DC66ACD00F62667 /* Info.plist */,
+			);
+			path = RotatingDialPadTests;
+			sourceTree = "<group>";
+		};
+		DC06EEE01DC66ACD00F62667 /* RotatingDialPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC06EEE11DC66ACD00F62667 /* RotatingDialPadUITests.swift */,
+				DC06EEE31DC66ACD00F62667 /* Info.plist */,
+			);
+			path = RotatingDialPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC06EEBD1DC66AC500F62667 /* RotatingDialPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC06EEE61DC66ACE00F62667 /* Build configuration list for PBXNativeTarget "RotatingDialPad" */;
+			buildPhases = (
+				DC06EEBA1DC66AC500F62667 /* Sources */,
+				DC06EEBB1DC66AC500F62667 /* Frameworks */,
+				DC06EEBC1DC66AC500F62667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatingDialPad;
+			productName = RotatingDialPad;
+			productReference = DC06EEBE1DC66AC500F62667 /* RotatingDialPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC06EED11DC66ACD00F62667 /* RotatingDialPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC06EEE91DC66ACE00F62667 /* Build configuration list for PBXNativeTarget "RotatingDialPadTests" */;
+			buildPhases = (
+				DC06EECE1DC66ACD00F62667 /* Sources */,
+				DC06EECF1DC66ACD00F62667 /* Frameworks */,
+				DC06EED01DC66ACD00F62667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC06EED41DC66ACD00F62667 /* PBXTargetDependency */,
+			);
+			name = RotatingDialPadTests;
+			productName = RotatingDialPadTests;
+			productReference = DC06EED21DC66ACD00F62667 /* RotatingDialPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC06EEDC1DC66ACD00F62667 /* RotatingDialPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC06EEEC1DC66ACE00F62667 /* Build configuration list for PBXNativeTarget "RotatingDialPadUITests" */;
+			buildPhases = (
+				DC06EED91DC66ACD00F62667 /* Sources */,
+				DC06EEDA1DC66ACD00F62667 /* Frameworks */,
+				DC06EEDB1DC66ACD00F62667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC06EEDF1DC66ACD00F62667 /* PBXTargetDependency */,
+			);
+			name = RotatingDialPadUITests;
+			productName = RotatingDialPadUITests;
+			productReference = DC06EEDD1DC66ACD00F62667 /* RotatingDialPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC06EEB61DC66AC400F62667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ReusableFrameworksGroup;
+				TargetAttributes = {
+					DC06EEBD1DC66AC500F62667 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					DC06EED11DC66ACD00F62667 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC06EEBD1DC66AC500F62667;
+					};
+					DC06EEDC1DC66ACD00F62667 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = DC06EEBD1DC66AC500F62667;
+					};
+				};
+			};
+			buildConfigurationList = DC06EEB91DC66AC400F62667 /* Build configuration list for PBXProject "RotatingDialPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC06EEB51DC66AC400F62667;
+			productRefGroup = DC06EEBF1DC66AC500F62667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC06EEBD1DC66AC500F62667 /* RotatingDialPad */,
+				DC06EED11DC66ACD00F62667 /* RotatingDialPadTests */,
+				DC06EEDC1DC66ACD00F62667 /* RotatingDialPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC06EEBC1DC66AC500F62667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC06EECC1DC66AC700F62667 /* LaunchScreen.storyboard in Resources */,
+				DC06EEC91DC66AC700F62667 /* Assets.xcassets in Resources */,
+				DC06EEC71DC66AC600F62667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC06EED01DC66ACD00F62667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC06EEDB1DC66ACD00F62667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC06EEBA1DC66AC500F62667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC06EEC41DC66AC600F62667 /* ViewController.swift in Sources */,
+				DC06EEC21DC66AC600F62667 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC06EECE1DC66ACD00F62667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC06EED71DC66ACD00F62667 /* RotatingDialPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC06EED91DC66ACD00F62667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC06EEE21DC66ACD00F62667 /* RotatingDialPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC06EED41DC66ACD00F62667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC06EEBD1DC66AC500F62667 /* RotatingDialPad */;
+			targetProxy = DC06EED31DC66ACD00F62667 /* PBXContainerItemProxy */;
+		};
+		DC06EEDF1DC66ACD00F62667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC06EEBD1DC66AC500F62667 /* RotatingDialPad */;
+			targetProxy = DC06EEDE1DC66ACD00F62667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC06EEC51DC66AC600F62667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC06EEC61DC66AC600F62667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC06EECA1DC66AC700F62667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC06EECB1DC66AC700F62667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC06EEE41DC66ACD00F62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC06EEE51DC66ACD00F62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC06EEE71DC66ACE00F62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotatingDialPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReusableFrameworksGroup.org.RotatingDialPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC06EEE81DC66ACE00F62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RotatingDialPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReusableFrameworksGroup.org.RotatingDialPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC06EEEA1DC66ACE00F62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RotatingDialPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReusableFrameworksGroup.org.RotatingDialPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingDialPad.app/RotatingDialPad";
+			};
+			name = Debug;
+		};
+		DC06EEEB1DC66ACE00F62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RotatingDialPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReusableFrameworksGroup.org.RotatingDialPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingDialPad.app/RotatingDialPad";
+			};
+			name = Release;
+		};
+		DC06EEED1DC66ACE00F62667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RotatingDialPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReusableFrameworksGroup.org.RotatingDialPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RotatingDialPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC06EEEE1DC66ACE00F62667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RotatingDialPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ReusableFrameworksGroup.org.RotatingDialPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RotatingDialPad;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC06EEB91DC66AC400F62667 /* Build configuration list for PBXProject "RotatingDialPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC06EEE41DC66ACD00F62667 /* Debug */,
+				DC06EEE51DC66ACD00F62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC06EEE61DC66ACE00F62667 /* Build configuration list for PBXNativeTarget "RotatingDialPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC06EEE71DC66ACE00F62667 /* Debug */,
+				DC06EEE81DC66ACE00F62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC06EEE91DC66ACE00F62667 /* Build configuration list for PBXNativeTarget "RotatingDialPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC06EEEA1DC66ACE00F62667 /* Debug */,
+				DC06EEEB1DC66ACE00F62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC06EEEC1DC66ACE00F62667 /* Build configuration list for PBXNativeTarget "RotatingDialPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC06EEED1DC66ACE00F62667 /* Debug */,
+				DC06EEEE1DC66ACE00F62667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC06EEB61DC66AC400F62667 /* Project object */;
+}
